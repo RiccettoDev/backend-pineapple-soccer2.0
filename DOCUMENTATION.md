@@ -57,9 +57,60 @@
 
 ## With the configurations of the routes.ts and server.ts files, we obtain our first test GET route
 
-![routes.ts](./img/routes-ts-initial.PNG)
-![server.ts](./img/server-ts-initial.PNG)
-![localhost3333/teste](./img/localhost3333-teste.PNG)
+- routes.ts
+  ![routes.ts](./img/routes-ts-initial.PNG)
+
+---
+
+- server.ts
+  ![server.ts](./img/server-ts-initial.PNG)
+
+---
+
+- localhost:3333/test
+  ![localhost3333/test](./img/localhost3333-test.PNG)
+
+## Sign in to your MongoDB Atlas account.
+
+![Sign](./img/Sign-in-mongodb-atlas.PNG)
+
+- Create a new project
+- Create a new database
+- Create user an password
+- And adjust IP Access List
+- Connect the drivers
+
+`npm install prisma --save-dev`
+
+- to install prisma
+
+`npm install @prisma/client`
+
+- to install prisma client
+
+`npx prisma init`
+
+- To initialize Prisma configuration, for it to generate our database connection file
+
+---
+
+- Modify the schema.prisma files and in the data-baseURL of the .env file, change the path obtained on MongoDB Atlas after connecting the drivers
+
+`npx prisma init`
+
+- Afterwards, inside the ./src folder, create a folder and the file ./src/prisma/index.ts
+
+`npx prisma studio`
+
+![npx prisma studio](./img/npx-prisma-studio.PNG)
+
+---
+
+![npx prisma studio/player](./img/npx-prisma-studio-player.PNG)
+
+## Created foldrs controllers and services
+
+- And next create other routes
 
 ---
 
