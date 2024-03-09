@@ -108,7 +108,7 @@
 
 ![npx prisma studio/player](./img/npx-prisma-studio-player.PNG)
 
-## Created foldrs controllers and services
+## Created folders controllers and services
 
 - And next create other routes
 
